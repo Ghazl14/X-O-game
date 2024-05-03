@@ -1,0 +1,122 @@
+body{
+background-color: rgb(64, 64, 73);
+
+}
+
+#container{
+   position: relative;
+   left: 31%;
+   top: 30px;
+    width: 580px;
+    height: 580px;
+    border: double 3px rgb(107, 131, 153);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    background-color:rgb(85, 146, 203) ;
+    font-size: 85px;
+     border: solid 2px rgb(209, 211, 213) ;
+    color: rgb(255, 255, 255);
+  
+    
+}
+.pr{
+margin-top: 5px;
+    text-align: center;
+    font-size:45px;
+ animation-name: colormove;
+ animation-duration: 5s;
+ animation-fill-mode: both;
+ animation-iteration-count: infinite;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+    color: aliceblue;
+
+}
+#x,#o{
+    position: relative;
+    left: 40%;
+   margin-top: -18px;
+    color: rgb(255, 255, 255);
+    font-size:large;
+    background-color:rgb(85, 146, 203) ;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+#o:hover{
+    background-color:rgb(86, 153, 246) ;
+}#x:hover{
+    background-color:  rgb(86, 153, 246);
+}
+
+
+
+
+@media  screen and (max-width:600px){
+    #container{
+        width: 450px;
+        height: 450px;
+        left: 10%;
+    }
+    #x,#o{
+        left: 25%;
+    }
+   
+    
+}
+#b1:active{
+    background-color: rgb(114, 198, 243);
+}
+#div2{
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 250px;
+color: aliceblue;
+    font-size: 45PX;
+    text-align:center;
+    background-color:rgb(64, 64, 73,0.8);
+    left:38% ;
+    top:45%;
+}
+#par{
+    margin-top: 25%;
+  
+}
+@keyframes colormove {
+    0%{
+        text-shadow: 5px 10px 10px rgb(10, 10, 10) ;
+    }  25%{
+        text-shadow: 5px 10px 10px rgb(214, 17, 17,0.7) ;
+    }
+    75%{
+        text-shadow: 5px 10px 10px rgb(10, 10, 10) ;
+    }
+    100%{
+        text-shadow: 5px 10px 10px rgb(214, 17, 17,0.7);  
+    }
+}
+
+#div1{
+    display: none;
+    position: relative;
+    left: 40%;
+    top: 10px;
+}
+.level{
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgb(173, 192, 230,0.5);
+    width: 100px;
+    height: 40px;
+}
+.level:hover{
+    background-color:rgb(85, 146, 203)  ;
+}
