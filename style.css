@@ -18,6 +18,7 @@ background-color: rgb(64, 64, 73);
     font-size: 85px;
      border: solid 2px rgb(209, 211, 213) ;
     color: rgb(255, 255, 255);
+    cursor: pointer;
   
     
 }
@@ -44,6 +45,7 @@ margin-top: 5px;
     width: 150px;
     height: 50px;
     border-radius: 10px;
+    cursor: pointer;
     
 }
 img{
@@ -115,8 +117,23 @@ color: aliceblue;
     color: aliceblue;
     background-color: rgb(173, 192, 230,0.5);
     width: 100px;
+    cursor: pointer;
     height: 40px;
 }
 .level:hover{
     background-color:rgb(85, 146, 203)  ;
+}
+#load{
+    position: relative;
+    background-color: rgb(214, 17, 17,0.6);
+    color: black;
+    border-color: transparent;
+    top: -15px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}
+#load:hover{
+    background-color: rgb(214, 17, 17,0.7);
+    font-size: 15px;
 }

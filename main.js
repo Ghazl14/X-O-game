@@ -2,7 +2,10 @@
 let a=document.getElementById("container").children;
 let hidden=document.getElementById("p1");
 let div=document.getElementById("div2");
-
+let load=document.getElementById("load");
+load.addEventListener("click",function(){
+    location.reload();
+})
 console.log(a)
 let board=[[a[0],a[1],a[2]],
 [a[3],a[4],a[5]],
